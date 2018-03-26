@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>PrakMod03</title>
+        <style>
+            .roundedbox { background: #655; padding: .8em; width: 350px;
+                height: 130px; }
+            .roundedbox > div { background: tan; border-radius: .8em; padding: .8em; }
+            
+.p {
+            width: 200px;
+            height: 200px;
+            background: #3b6e96;
+            padding: 10px;
+            text-align: left;
+            border-radius: 25px;}       
+            
+            .amplop{
+                position: relative;
+                width: 350px;
+                height: 100px;
+                margin-bottom: 25px;
+                border: 15px solid transparent;
+                background: #ffffff;
+                
+                background-image: -moz-linear-gradient(#ffffff, #ffffff),
+                    -moz-repeating-linear-gradient(-45deg, #d50, #d50 15px, transparent 15px, transparent 30px, #15c 45px, transparent 45px, transparent 60px);
+                background-image: -ms-linear-gradient(#ffffff, #ffffff),
+                    -ms-repeating-linear-gradient(-45deg, #d50, #d50 15px, transparent 15px, transparent 30px, #15c 45px, transparent 45px, transparent 60px);
+                background-image: -o-linear-gradient(#ffffff, #ffffff),
+                    -o-repeating-linear-gradient(-45deg, #d50, #d50 15px, transparent 15px, transparent 30px, #15c 45px, transparent 45px, transparent 60px);
+                background-image: -webkit-linear-gradient(#ffffff, #ffffff),
+                    -webkit-repeating-linear-gradient(-45deg, #d50, #d50 15px, transparent 15px, transparent 30px, #15c 45px, transparent 45px, transparent 60px);
+                background-clip: padding-box, border-box;
+                background-origin: border-box;
+            }
+            
+            
+            .button { position: relative; padding: .8em;top: -5px; text-decoration: none;/* text color, paddings, etc. */ } 
+            .button::before { content:""; /* To generate the box */ position:absolute;height: 30px; width: 110px; top: 7; right: 0; bottom: 5px; left: 5px; z-index: -1; background: #58a; transform: skew(45deg); }
+            .button > div{display: inline; padding-left: 1em; color: white; font-weight: bold}
+
+            .button2 { position: relative; padding: .8em; top: -5px; text-decoration: none;/* text color, paddings, etc. */ } 
+            .button2::before { content:""; /* To generate the box */ position:absolute;height: 30px; width: 125px; top: 7; right: 0; bottom: 5px; left: 15px; z-index: -1; background: #58a; transform: skew(45deg); }
+            .button2 > div{display: inline; padding-left: 1em; color: white; font-weight: bold}
+            
+            .pie { position: relative; width: 100px; line-height: 100px; border-radius: 50%; background: yellowgreen; background-image:  linear-gradient(to right, transparent 50%, #655 0); color: transparent; text-align: center; }
+            @keyframes spin { to { transform: rotate(.5turn); } } 
+            @keyframes bg { 50% { background: #655; } }   
+            .pie::before { content: ''; position: absolute; top: 0; left: 50%; width: 50%; height: 100%; border-radius: 0 100% 100% 0 / 50%; background-color: inherit;transform-origin: left; animation: spin 50s linear infinite, bg 100s step-end infinite; animation-play-state: paused; animation-delay: inherit; }
+        </style>
+    </head>
+    
+    <body>
+        <table border="0">
+            <tr>
+                
+                <td>
+                    <div class="roundedbox"><div> 
+                        <p align="justify">
+                            Kotak berbunder yang <br/>
+                            unyu dan menarik <br/>
+                            hati, membuat hati<br/> 
+                            berdebar debar
+                        </p>
+                    </div></div>
+                </td>
+            </tr>
+            <tr>
+                
+                <td></td>
+            </tr>
+            
+   
+            
+            <table border="0">
+            <tr>
+                
+                <td>
+                    <div class="p"><div> 
+                        <p align="justify">
+                         Fokus dong, fahami dan <br/>
+                            pelajari mata kuliah ini, biar <br/>
+                            jadi pakar di web developer,<br/> 
+                            kan asik
+                        </p>
+                    </div></div>
+                </td>
+            </tr>
+            <tr>
+                
+                <td></td>
+            </tr>
+            
+            
+            
+            
+            <tr>
+                
+                <td>
+                    <div class="amplop"><div>
+                        <p align="justify">
+                            Efek cantik yang indah dan luar biasa dari desain<br/>
+                            klasik amplop masa lalu. Jelas ini bukan amplop<br/>
+                            kondangan. Tapi amplop surat menyurat yang<br/>
+                            amazing dan luar biasa.
+                        </p>
+                    </div></div>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+            
+            
+<table border="0">
+    <tr>
+                
+                <td>
+                    <a href="#yolo" class="button"> 
+                        <div>Klik Saya</div> 
+                    </a>
+                </td>
+                <td>
+                    <a href="#yolo" class="button2"> 
+                        <div>Klik Saya Saja</div> 
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table border="0">
+            <tr>
+        <td>
+            <div class="pie"     style="animation-delay: -20s"> 20</div>  
+        </td>
+        <td>
+            <div class="pie"     style="animation-delay: -60s">60</div>
+        </td>
+    </tr>
+        </table>
+        </table>
+    </body>
+</html>
